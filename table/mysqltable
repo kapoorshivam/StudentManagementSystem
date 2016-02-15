@@ -1,1 +1,5 @@
 																										Creating MySql Database Table
+CREATE TABLE TEST11 (ROLLNO INT, NAME CHAR(50), DATEOFBIRTH DATE,
+										 GENDER ENUM('MALE','FEMALE'), PHONENUM VARCHAR(50),
+										 BRANCH VARCHAR(50), PRIMARY KEY (ROLLNO)
+										);
